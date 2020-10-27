@@ -5,16 +5,15 @@ class Navbar extends Component{
   return(
  // <nav className="navbar">TaSkill
   <div>
-    <nav>
-      
-  <ul>
-  <li><a style={{color:'chocolate'}}>TaSkill</a></li>
-  <li style={{float:"right"}}><a href="home">Home</a></li>
-  <li style={{float:"right"}}><a href="news">News</a></li>
-  <li style={{float:"right"}}><a href="contact">Contact</a></li>
-  <li style={{float:"right"}}><a href="about">About</a></li>
-  </ul>
-  </nav>
+    <nav>    
+      <ul>
+          <li><a style={{color:'white', fontFamily: "Dancing Script", fontSize:"x-large"}}>TaSkill</a></li>
+          <li style={{float:"right"}}><a href="home">Home</a></li>
+          <li style={{float:"right"}}><a href="news">News</a></li>
+          <li style={{float:"right"}}><a href="contact">Contact</a></li>
+          <li style={{float:"right"}}><a href="about">About</a></li>
+      </ul>
+   </nav>
   </div>
   
  // </nav>
